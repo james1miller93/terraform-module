@@ -36,23 +36,27 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
+  - type: dropdown
     id: upgrade
     attributes:
-      label: Upgrading?
+      label: Upgrade?
       description: Did you encounter the issue when upgrading from a previous version of the module, terraform or kubernetes?
       options:
-        - label: Upgrade?
-          required: true
+        - Yes
+        - No
+    validations:
+      required: true
 
-  # - type: checkboxes
-  #   id: encountered-before
-  #   attributes:
-  #     label: Seen the issue elsewhere?
-  #     description: Have you encountered the issue before?
-  #     options:
-  #       - label: Elsewhere?
-  #         required: true
+  - type: dropdown
+    id: encountered-before
+    attributes:
+      label: Seen the issue elsewhere?
+      description: Have you encountered the issue before?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
 
   - type: textarea
     id: what-happened
