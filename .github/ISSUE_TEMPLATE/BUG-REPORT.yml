@@ -68,6 +68,15 @@ body:
       required: true
 
   - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Provide the steps we can take to reproduce the error?
+      placeholder: Tell us how to reproduce the error!
+    validations:
+      required: true
+
+  - type: textarea
     id: logs
     attributes:
       label: Log Data
