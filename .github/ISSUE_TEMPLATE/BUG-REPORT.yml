@@ -59,10 +59,19 @@ body:
       required: true
 
   - type: textarea
-    id: what-happened
+    id: expected-behaviour
     attributes:
-      label: Explain the Issue
-      description: What happened and what did you expect to happen?
+      label: Expected Behaviour
+      description: What did you expect to happen?
+      placeholder: Tell us what you expected to see!
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behaviour
+    attributes:
+      label: Actual Behaviour?
+      description: What actually happened?
       placeholder: Tell us what you saw!
     validations:
       required: true
