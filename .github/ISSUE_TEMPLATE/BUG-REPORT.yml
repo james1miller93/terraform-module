@@ -42,8 +42,8 @@ body:
       label: Upgrade?
       description: Did you encounter the issue when upgrading from a previous version of the module, terraform or kubernetes?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
 
@@ -53,8 +53,8 @@ body:
       label: Seen the issue elsewhere?
       description: Have you encountered the issue before?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
 
