@@ -36,14 +36,14 @@ body:
     validations:
       required: true
 
-  # - type: checkboxes
-  #   id: upgrade
-  #   attributes:
-  #     label: Upgrading?
-  #     description: Did you encounter the issue when upgrading from a previous version of the module, terraform or kubernetes?
-  #     options:
-  #       - label: Upgrade?
-  #         required: true
+  - type: checkboxes
+    id: upgrade
+    attributes:
+      label: Upgrading?
+      description: Did you encounter the issue when upgrading from a previous version of the module, terraform or kubernetes?
+      options:
+        - label: Upgrade?
+          required: true
 
   # - type: checkboxes
   #   id: encountered-before
