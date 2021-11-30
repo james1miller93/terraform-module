@@ -17,6 +17,15 @@ body:
       placeholder: ex. 1.0.11
     validations:
       required: true
+  
+  - type: textarea
+    id: provider-versions
+    attributes:
+      label: Provider Versions
+      description: What terraform providers were used?
+      placeholder: hashicorp/aws = 3.67.0
+    validations:
+      required: true
 
   - type: input
     id: module-version
